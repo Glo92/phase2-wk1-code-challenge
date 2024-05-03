@@ -1,0 +1,29 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "date":"2-4-2024",
+            "description":"food",
+            "category": "dinner",
+            "amount": 4980
+        },
+        {
+
+            "id": 2,
+            "date":"7-4-2024",
+            "description":"movie",
+            "category": "entertainment",
+            "amount": 4508
+
+        },
+        {
+
+            "id": 3,
+            "date":"9-4-2024",
+            "description":"fun",
+            "category": "leisure",
+            "amount": 4000
+        }
+      
+    ]
+}
