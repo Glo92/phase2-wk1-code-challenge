@@ -1,4 +1,4 @@
-
+/* 
 * {
   background-color: rgb(38, 183, 219);
   font-style: italic;
@@ -51,4 +51,80 @@ tr,td,th,table {
   font-size: large;
   margin-bottom: 5px;
   margin-top: 5px;
+} */
+/* General styles */
+* {
+  background-color: white; /* Set background color to white */
+  font-style: italic;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Header styling */
+.head {
+  color: white;
+  background-color: rgb(21, 64, 184);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border: dotted 1px;
+  border-radius: 10px;
+  border-collapse: collapse;
+  margin: 5px;
+}
+
+tr, td, th, table {
+  border: dotted 1px;
+}
+
+/* Search bar styling */
+#search {
+  border: solid 1px;
+  width: 50%;
+  outline: 6px;
+  display: inline-block; /* Inline-block to align with other elements */
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+/* Form styling */
+#form {
+  margin-bottom: 20px;
+  border: solid 1px;
+  display: flex; /* Flexbox layout for input alignment */
+  justify-content: center; /* Center the inputs */
+  gap: 10px; /* Add some spacing between inputs */
+}
+
+/* Input field styling */
+#input {
+  font-size: large;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px; /* Add padding for better appearance */
+}
+
+/* Add transaction button styling */
+button {
+  background-color: gray; /* Set button color to gray */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgray; /* Darker gray on hover */
 }
